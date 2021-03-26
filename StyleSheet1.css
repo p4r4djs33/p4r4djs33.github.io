@@ -1,0 +1,48 @@
+﻿body {
+    background-image: url(wallpaper-4k-hinh-nen-4k-thiet-ke-cuc-dep_101257772.jpg);
+    background-size: 120vh, 120vw;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+}
+form {
+    background-color: lightgreen;
+    margin:auto;
+    max-width:300px;
+    border: 5px solid white;
+    padding: 0px 20px;
+}
+
+input[type=submit]{
+    display:block;
+    background-color: lightblue;
+    color: white;
+}
+input[type=reset]:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: darkblue;
+    color: white;
+    cursor:pointer;
+}
+label{
+    display:block;
+    color: white;
+}
+
+input[required]{
+    border-radius: 10px;
+}
+
+input[required]:focus{
+    background-color:yellow;
+    border-color: 10px lightblue;
+}
+
+label::after{
+    content:"*";
+    color: red;
+}
+
